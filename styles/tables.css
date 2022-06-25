@@ -1,0 +1,90 @@
+.info-grid {
+    display: grid;
+    
+    position: relative;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+    background-color: grey;
+    margin-top: 216px;
+    
+    right: 0;
+    left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    
+}
+
+.left-table {
+    border-left: 3px solid black;
+    
+    border-bottom: 3px solid rgb(50, 50, 50);
+}
+
+.left-list-title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 0;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.left-table-list {
+    columns: 2;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-left: 30px;
+    
+    background-color: grey;
+}
+
+
+
+.middle-table {
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid rgb(50, 50, 50);
+    justify-content: center;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: rgb(100, 100, 100);
+    
+}
+
+.right-table {
+    border-right: 3px solid black;
+    
+    border-bottom: 3px solid rgb(50, 50, 50);
+}
+
+.right-list-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    
+    
+    margin-bottom: 30px;
+}
+
+.right-table-list {
+
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-left: 30px;
+    
+    background-color: grey;
+}
